@@ -1,0 +1,27 @@
+.modelBox{
+    background: rgb(82, 82, 82);
+    color: rgb(255, 255, 255);
+    
+}
+.modelBox h1{
+    font-weight: bold;
+    font-size: 22px;
+    color:#fff;
+}
+.DBBox{
+    color: rgb(255, 255, 255);
+}
+.DBBox h1{
+    font-weight: bold;
+    font-size: 22px;
+    color:#fff;
+    text-align: left;
+}
+.DBBox p{
+    text-align: left;
+}
+.DVBox h1{
+        font-weight: bold;
+        font-size: 20px;
+        text-align: left;
+    }

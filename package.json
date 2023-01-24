@@ -2,6 +2,7 @@
   "name": "mern_a_to_z_client",
   "version": "0.1.0",
   "private": true,
+  "main":"main.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
@@ -10,6 +11,7 @@
     "axios": "^0.26.1",
     "better-scroll": "^2.5.0",
     "echarts": "^5.4.1",
+    "electron": "^22.0.3",
     "highcharts": "^10.3.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -18,10 +20,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set BROWSER=none && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron": "set ELECTRON_START_URL=http://localhost:8082 && electron ."
   },
   "eslintConfig": {
     "extends": [
